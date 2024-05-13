@@ -68,3 +68,12 @@ nav {
     font-weight: 600;
     margin-left: .9375rem;
 }
+.nav-text { 
+    margin-left: .9375rem;
+}
+.nav-text p {
+     font-size: .625rem;
+}
+.nav-text h1 {
+    font-size: .875rem;
+}
