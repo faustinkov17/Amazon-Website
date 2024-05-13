@@ -61,3 +61,10 @@ nav {
      background-color: #ffd64f;
      border-radius: 0 .25rem .25rem 0;
 }
+.nav-language {
+    display: flex;
+    align-items: center;
+    gap: .125rem;
+    font-weight: 600;
+    margin-left: .9375rem;
+}
