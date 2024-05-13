@@ -77,3 +77,8 @@ nav {
 .nav-text h1 {
     font-size: .875rem;
 }
+.nav-cart {
+    display: flex;
+    align-items: center;
+    margin: 0 .9375rem;
+}
