@@ -82,3 +82,18 @@ nav {
     align-items: center;
     margin: 0 .9375rem;
 }
+.nav-bottom {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding:  .5rem 1.25rem;
+    background-color: #232f3e;
+    color: #fff;
+    font-size: .9375rem;
+}
+.nav-bottom div {
+    display: flex;
+    align-items: center;
+    gap: .3125rem;
+    font-weight: 500;
+}
