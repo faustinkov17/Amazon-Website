@@ -120,3 +120,47 @@ nav {
 .control_next {
     right: 0 ;
 }
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1.25rem;
+    justify-content: space-between ;
+    margin: 1.25rem 1.875rem;
+}
+.box-col {
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    padding: .9375rem 1.25rem ;
+    background: #fff;
+    max-width: 24%;
+    min-height: 12.5rem;
+    z-index: 1;
+}
+.box-col a {
+    font-size: .8125rem;
+    color: #009999;
+    font-weight: 500;
+}
+.header-box {
+    margin-top: -20vw;
+}
+.products-slider {
+    background-color: #fff;
+    margin: 0 1.875rem;
+    padding: 1.25rem;
+    margin-bottom: .9375rem;
+}
+.products-slider .products {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.25rem;
+    margin-top: .625rem;
+}
+.products-slider .products img {
+    max-width: 12.5rem;
+    max-height: 12.5rem;
+}
+.products-slider .products::-webkit-scrollbar {
+    display: none;
+}
